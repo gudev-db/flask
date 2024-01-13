@@ -1,0 +1,8 @@
+{% if 'salary' in job%}
+<div>
+  <div class = "border" style="color:rgb(120,120,120); padding:5px;">
+    <b>Cargo: </b>{{job['title']+' '+job['salary']+' '}}
+    <div class = "col-2"><button type="button" class="btn btn-outline-primary float-right">Comprar</button></div>
+   </div>
+</div>
+{% endif %}
